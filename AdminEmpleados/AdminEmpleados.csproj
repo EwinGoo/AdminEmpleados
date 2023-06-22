@@ -49,6 +49,8 @@
     <Compile Include="BLL\DepartamentoBLL.cs" />
     <Compile Include="BLL\EmpleadosBLL.cs" />
     <Compile Include="DAL\conexionDAL.cs" />
+    <Compile Include="DAL\DepartamentosDAL.cs" />
+    <Compile Include="DAL\EmpleadosDAL.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +88,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -100,6 +103,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\285657_floppy_guardar_save_icon %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285638_pencil_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\969259_magnifier_search_seo_magnifying_zoom_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\326554_cancel_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mi proyecto %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mi proyecto.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

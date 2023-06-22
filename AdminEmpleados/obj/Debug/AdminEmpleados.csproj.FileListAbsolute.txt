@@ -11,3 +11,16 @@ C:\Users\Edwin\Desktop\RRHH\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmplead
 C:\Users\Edwin\Desktop\RRHH\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.exe
 C:\Users\Edwin\Desktop\RRHH\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.pdb
 C:\Users\Edwin\Desktop\RRHH\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmDepartamentos.resources
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\bin\Debug\AdminEmpleados.exe.config
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\bin\Debug\AdminEmpleados.exe
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\bin\Debug\AdminEmpleados.pdb
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.AssemblyReference.cache
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.SuggestedBindingRedirects.cache
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.Form1.resources
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmDepartamentos.resources
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.PL.frmEmpleados.resources
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.Properties.Resources.resources
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.GenerateResource.cache
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.csproj.CoreCompileInputs.cache
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.exe
+C:\Users\ed\Desktop\AdminEmpleados\AdminEmpleados\obj\Debug\AdminEmpleados.pdb

@@ -53,33 +53,40 @@
             // 
             this.txtId.Location = new System.Drawing.Point(15, 35);
             this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
             this.txtId.Size = new System.Drawing.Size(100, 20);
-            this.txtId.TabIndex = 1;
+            this.txtId.TabIndex = 100;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(15, 73);
+            this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAgregar.Image = global::AdminEmpleados.Properties.Resources._285657_floppy_guardar_save_icon__2_;
+            this.btnAgregar.Location = new System.Drawing.Point(12, 67);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(91, 34);
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // dgvDepartamentos
             // 
+            this.dgvDepartamentos.AllowUserToAddRows = false;
+            this.dgvDepartamentos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDepartamentos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDepartamentos.Location = new System.Drawing.Point(12, 130);
+            this.dgvDepartamentos.Location = new System.Drawing.Point(27, 137);
             this.dgvDepartamentos.Name = "dgvDepartamentos";
-            this.dgvDepartamentos.Size = new System.Drawing.Size(398, 192);
+            this.dgvDepartamentos.Size = new System.Drawing.Size(337, 190);
             this.dgvDepartamentos.TabIndex = 3;
+            this.dgvDepartamentos.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Seleccionar);
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(132, 35);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(278, 20);
-            this.txtNombre.TabIndex = 5;
+            this.txtNombre.Size = new System.Drawing.Size(253, 20);
+            this.txtNombre.TabIndex = 1;
             // 
             // label2
             // 
@@ -92,36 +99,46 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(335, 73);
+            this.btnCancelar.Image = global::AdminEmpleados.Properties.Resources._969259_magnifier_search_seo_magnifying_zoom_icon__1_;
+            this.btnCancelar.Location = new System.Drawing.Point(295, 67);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(90, 34);
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(225, 73);
+            this.btnBorrar.Image = global::AdminEmpleados.Properties.Resources._326554_cancel_icon__1_;
+            this.btnBorrar.Location = new System.Drawing.Point(206, 67);
             this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btnBorrar.Size = new System.Drawing.Size(83, 34);
             this.btnBorrar.TabIndex = 7;
             this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(119, 73);
+            this.btnModificar.Enabled = false;
+            this.btnModificar.Image = global::AdminEmpleados.Properties.Resources._285638_pencil_icon__1_;
+            this.btnModificar.Location = new System.Drawing.Point(109, 67);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.Size = new System.Drawing.Size(91, 34);
             this.btnModificar.TabIndex = 8;
             this.btnModificar.Text = "Modificar";
+            this.btnModificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // frmDepartamentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 334);
+            this.ClientSize = new System.Drawing.Size(402, 366);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnCancelar);

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AdminEmpleados",
+    "\\AdminEmpleados\\BLL",
+    "\\AdminEmpleados\\DAL",
+    "\\AdminEmpleados\\PL"
+  ],
+  "SelectedNode": "\\AdminEmpleados\\DAL\\conexionDAL.cs",
+  "PreviewInSolutionExplorer": true
+}
